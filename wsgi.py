@@ -1,2 +1,4 @@
-from flask_qa import create_app
-app = create_app()
+from myproject import app
+
+if __name__ == "__main__":
+    app.run()
