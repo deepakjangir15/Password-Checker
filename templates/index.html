@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' href='/static/style.css'>
+    <title>Password Checker</title>
+</head>
+
+<body>
+    <h1>PASSWORD CHECKER by Deepak Jangir.</h1>
+    <hr>
+    <h2>Unlike the other websites that save your complete password to check if it was ever been pawned or not, this page
+        only uses the first 5 characters of your password to get the request from the API and then compares your
+        password from the list of recieved passwords from the API request.</h2>
+
+    <div class="search-box">
+        <form action='result' method='post' class='search-box'>
+            <input name='password' type="text" class='search-txt' placeholder="type in your password">
+            <button class='search-btn' type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class='footer'>
+            <p>Copyright &copy; 2020 by Deepak Jangir. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
