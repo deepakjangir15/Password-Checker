@@ -45,7 +45,7 @@ def main(args):
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('/static/index.html')
 
 
 @app.route('/result', methods=['POST', 'GET'])
@@ -55,7 +55,7 @@ def result():
         data = request.form['password']
         final = main([data])
         print(type(final))
-        return render_template('result.html', Data=final)
+        return render_template('/static/result.html', Data=final)
 
 
 # ----------------------------------------------------------------------------
