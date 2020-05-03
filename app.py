@@ -60,3 +60,5 @@ def result():
 # ----------------------------------------------------------------------------
 if __name__ == 'main':
     app.run()
+
+# when not deploying it just make it to app.run(debug=True)

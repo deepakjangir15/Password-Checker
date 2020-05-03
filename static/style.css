@@ -10,13 +10,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background: #2f3640;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
+    height: 25%;
+    border-radius: 1%;
    }
    
    .search-box:hover > .search-txt {
-    width: 240px;
+    width: 100%;
     padding: 0 6px;
    }
    
@@ -30,7 +29,7 @@ body {
     color: #e84118;
     float: right;
     width: 250px;
-    height: 40px;
+    height: 90%;
     border-radius: 50%;
     background: #2f3640;
     display: flex;
@@ -84,5 +83,5 @@ h2 {
 .footer{
     color: #fff;
     text-align: center;
-    margin-top: 28%;
+    margin-top: 90%;
 }
