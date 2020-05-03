@@ -1,4 +1,3 @@
-import sys
 import hashlib
 import requests
 from flask import Flask, render_template, request
@@ -59,5 +58,5 @@ def result():
 
 
 # ----------------------------------------------------------------------------
-
-app.run(debug=True)
+if __name__ == 'main':
+    app.run()
